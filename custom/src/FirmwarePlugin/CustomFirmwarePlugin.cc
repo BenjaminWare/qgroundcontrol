@@ -39,8 +39,10 @@ const QVariantList& CustomFirmwarePlugin::toolIndicators(const Vehicle* vehicle)
         // First call the base class to get the standard QGC list. This way we are guaranteed to always get
         // any new toolbar indicators which are added upstream in our custom build.
         _toolIndicatorList = FirmwarePlugin::toolIndicators(vehicle);
+        _toolIndicatorList.append(QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/MyIndicator.qml")));
         // Then specifically remove the RC RSSI indicator.
-        _toolIndicatorList.removeOne(QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/RCRSSIIndicator.qml")));
+
+        //        _toolIndicatorList.removeOne(QVariant::fromValue(QUrl::fromUserInput("qrc:/toolbar/RCRSSIIndicator.qml")));
     }
     return _toolIndicatorList;
 }

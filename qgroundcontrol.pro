@@ -38,7 +38,7 @@ QML_IMPORT_PATH += $$PWD/src/QmlControls
 #
 
 MacBuild {
-    QMAKE_INFO_PLIST    = Custom-Info.plist
+    QMAKE_INFO_PLIST    = tom-Info.plist
     ICON                = $${SOURCE_DIR}/resources/icons/macx.icns
     OTHER_FILES        += Custom-Info.plist
     LIBS               += -framework ApplicationServices

@@ -50,7 +50,7 @@ Button {
             mipmap:                 true
             antialiasing:           true
             fillMode:               Image.PreserveAspectFit
-            source:                 qgcPal.globalTheme === QGCPalette.Light ? "/res/QGCLogoBlack" : "/res/QGCLogoWhite"
+            source:                 qgcPal.globalTheme === QGCPalette.Light ? "/custom/img/ParawaveLogoOutline.png" : "/custom/img/ParawaveLogoOutline.png"
             sourceSize.height:      height
             anchors.left:           _edge.right
             anchors.leftMargin:     ScreenTools.defaultFontPixelWidth

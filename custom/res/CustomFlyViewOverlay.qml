@@ -65,7 +65,7 @@ Item {
         id:                         compassBar
         height:                     ScreenTools.defaultFontPixelHeight * 1.5
         width:                      ScreenTools.defaultFontPixelWidth  * 50
-        color:                      "#DEDEDE"
+        color:                      "#80000000"
         radius:                     2
         clip:                       true
         anchors.top:                headingIndicator.bottom
@@ -136,8 +136,8 @@ Item {
         anchors.rightMargin:    -attitudeIndicator.width / 2
         width:                  -anchors.rightMargin + compassBezel.width + (_toolsMargin * 2)
         height:                 attitudeIndicator.height * 0.75
-        radius:                 2
-        color:                  qgcPal.window
+        radius:                 12
+        color:                  "#80000000"
 
         Rectangle {
             id:                     compassBezel
@@ -216,7 +216,7 @@ Item {
         height:                 ScreenTools.defaultFontPixelHeight * 6
         width:                  height
         radius:                 height * 0.5
-        color:                  qgcPal.windowShade
+        color:                  "#80000000"
 
         CustomAttitudeWidget {
             size:               parent.height * 0.95

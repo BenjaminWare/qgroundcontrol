@@ -57,11 +57,11 @@ WindowsBuild {
 # Branding
 #
 
-QGC_APP_NAME        = "QGroundControl"
-QGC_ORG_NAME        = "QGroundControl.org"
-QGC_ORG_DOMAIN      = "org.qgroundcontrol"
-QGC_APP_DESCRIPTION = "Open source ground control app provided by QGroundControl dev team"
-QGC_APP_COPYRIGHT   = "Copyright (C) 2019 QGroundControl Development Team. All rights reserved."
+QGC_APP_NAME        = "ParawaveGroundControl"
+QGC_ORG_NAME        = "parawave.us"
+QGC_ORG_DOMAIN      = "us.parawave"
+QGC_APP_DESCRIPTION = "Proprietary version of QGroundControl built by Parawave"
+QGC_APP_COPYRIGHT   = "Copyright (C) 2023 Parawave LLC All rights reserved."
 
 WindowsBuild {
     QGC_INSTALLER_SCRIPT        = "$$SOURCE_DIR\\deploy\\windows\\nullsoft_installer.nsi"

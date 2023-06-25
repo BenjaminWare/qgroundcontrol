@@ -14,7 +14,6 @@ import QGroundControl.Controls  1.0
 
 ToolStripActionList {
     id: _root
-
     signal displayPreFlightChecklist
 
     model: [

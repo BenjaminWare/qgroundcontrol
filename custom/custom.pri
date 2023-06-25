@@ -36,18 +36,18 @@ DEFINES += CUSTOMHEADER=\"\\\"CustomPlugin.h\\\"\"
 DEFINES += CUSTOMCLASS=CustomPlugin
 
 TARGET   = CustomQGroundControl
-DEFINES += QGC_APPLICATION_NAME='"\\\"Custom QGroundControl\\\""'
+DEFINES += QGC_APPLICATION_NAME='"\\\"ParawaveGroundControl\\\""'
 
-DEFINES += QGC_ORG_NAME=\"\\\"qgroundcontrol.org\\\"\"
-DEFINES += QGC_ORG_DOMAIN=\"\\\"org.qgroundcontrol\\\"\"
+DEFINES += QGC_ORG_NAME=\"\\\"parawave.us\\\"\"
+DEFINES += QGC_ORG_DOMAIN=\"\\\"us.parawave\\\"\"
 
-QGC_APP_NAME        = "Custom QGroundControl"
-QGC_BINARY_NAME     = "CustomQGroundControl"
-QGC_ORG_NAME        = "Custom"
-QGC_ORG_DOMAIN      = "org.custom"
-QGC_ANDROID_PACKAGE = "org.custom.qgroundcontrol"
-QGC_APP_DESCRIPTION = "Custom QGroundControl"
-QGC_APP_COPYRIGHT   = "Copyright (C) 2020 QGroundControl Development Team. All rights reserved."
+QGC_BINARY_NAME     = "ParawaveGroundControl"
+QGC_ANDROID_PACKAGE = "us.parawave" #TODO may need to be an actual org.
+QGC_APP_NAME        = "ParawaveGroundControl"
+QGC_ORG_NAME        = "parawave.us"
+QGC_ORG_DOMAIN      = "us.parawave"
+QGC_APP_DESCRIPTION = "Proprietary version of QGroundControl built by Parawave"
+QGC_APP_COPYRIGHT   = "Copyright (C) 2023 Parawave LLC All rights reserved."
 
 # Our own, custom resources
 RESOURCES += \

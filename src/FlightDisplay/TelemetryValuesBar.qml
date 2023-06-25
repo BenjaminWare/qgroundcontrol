@@ -20,7 +20,7 @@ Rectangle {
     id:                 telemetryPanel
     height:             telemetryLayout.height + (_toolsMargin * 2)
     width:              telemetryLayout.width + (_toolsMargin * 2)
-    color:              qgcPal.window
+    color:              "#80000000" //Glass panel
     radius:             ScreenTools.defaultFontPixelWidth / 2
 
     property bool       bottomMode: true

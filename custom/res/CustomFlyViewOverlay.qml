@@ -147,7 +147,7 @@ Item {
             width:                  height
             height:                 parent.height - (northLabelBackground.height / 2) - (headingLabelBackground.height / 2)
             radius:                 height / 2
-            border.color:           qgcPal.text
+            border.color:            "#303030"
             border.width:           1
             color:                  Qt.rgba(0,0,0,0)
         }
@@ -159,14 +159,14 @@ Item {
             anchors.horizontalCenter:   compassBezel.horizontalCenter
             width:                      northLabel.contentWidth * 1.5
             height:                     northLabel.contentHeight * 1.5
-            radius:                     ScreenTools.defaultFontPixelWidth  * 0.25
-            color:                      qgcPal.windowShade
+            radius:                     ScreenTools.defaultFontsPixelWidth  * 0.25
+            color:                      "#303030"
 
             QGCLabel {
                 id:                 northLabel
                 anchors.centerIn:   parent
                 text:               "N"
-                color:              qgcPal.text
+                color:              "#FFFFFF"
                 font.pointSize:     ScreenTools.smallFontPointSize
             }
         }
@@ -195,13 +195,13 @@ Item {
             width:                      headingLabel.contentWidth * 1.5
             height:                     headingLabel.contentHeight * 1.5
             radius:                     ScreenTools.defaultFontPixelWidth  * 0.25
-            color:                      qgcPal.windowShade
+            color:                       "#303030"
 
             QGCLabel {
                 id:                 headingLabel
                 anchors.centerIn:   parent
                 text:               _heading
-                color:              qgcPal.text
+                color:              "#FFFFFF"
                 font.pointSize:     ScreenTools.smallFontPointSize
             }
         }
